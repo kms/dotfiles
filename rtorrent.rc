@@ -1,0 +1,8 @@
+dht = on
+session = ~/.rtorrent-session
+port_range = 45012-45012
+encryption = allow_incoming
+peer_exchange = yes
+upload_rate = 10
+download_rate = 125
+dht_port = 45012

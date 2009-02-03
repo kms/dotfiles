@@ -1,0 +1,7 @@
+[auth]
+[helpers]
+[tunnels]
+ssh = $SVN_SSH ssh -o ControlMaster=no
+[miscellany]
+global-ignores = *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo .*swo .*swp
+[auto-props]

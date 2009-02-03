@@ -1,2 +1,5 @@
 [user]
+	name = Karl-Martin Skontorp
 	email = kms@skontorp.net
+[color]
+	ui = auto

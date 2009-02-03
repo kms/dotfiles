@@ -1,8 +1,11 @@
 #!/usr/bin/ruby
+# ~/.irbrc
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 require 'rubygems'
 require 'irb/completion'
-require 'wirble'
 require 'irb/ext/save-history'
+require 'wirble'
 require 'pp'
 
 Wirble.init

@@ -1,1 +1,4 @@
+# ~/.psqlrc
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 \timing

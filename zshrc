@@ -1,3 +1,6 @@
+# ~/.zshrc
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 unlimit
 limit stack 8192
 limit core 0

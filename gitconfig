@@ -1,3 +1,6 @@
+# ~/.gitconfig
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 [user]
 	name = Karl-Martin Skontorp
 	email = kms@skontorp.net

@@ -1,3 +1,6 @@
+# ~/.zshenv
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 path=(/bin /usr/bin /sbin /usr/sbin)
 path=($path /usr/X11R6/bin /usr/games /usr/local/bin)
 path=($path $HOME/bin)

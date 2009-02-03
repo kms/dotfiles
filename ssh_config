@@ -1,2 +1,5 @@
+# ~/.ssh/config
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 ForwardX11 yes
 ServerAliveInterval 30

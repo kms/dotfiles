@@ -1,3 +1,6 @@
+# ~/.subversion/config
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+
 [auth]
 [helpers]
 [tunnels]

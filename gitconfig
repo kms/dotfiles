@@ -6,3 +6,7 @@
 	email = kms@skontorp.net
 [color]
 	ui = auto
+[alias]
+	st = status
+	ci = commit
+	up = pull

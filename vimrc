@@ -36,6 +36,10 @@ filetype indent on
 set ruler
 set laststatus=2
 set statusline=%<%f\ \ %h%m%r%y%=[%{foldlevel('.')}]\ \ \ %l,%c%V\ \ {%o}\ \ %P
+set nowrap
+set sidescroll=5
+set listchars+=precedes:«,extends:»
+
 
 " -- Key mapping --
 " Reduce folding

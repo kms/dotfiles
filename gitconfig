@@ -2,11 +2,13 @@
 # Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
 
 [user]
-	name = Karl-Martin Skontorp
-	email = kms@skontorp.net
+    name = Karl-Martin Skontorp
+    email = kms@skontorp.net
+[core]
+    excludesfile = /home/kms/.gitignore-global
 [color]
-	ui = auto
+    ui = auto
 [alias]
-	st = status
-	ci = commit
-	up = pull
+    st = status
+    ci = commit
+    up = pull

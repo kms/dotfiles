@@ -7,6 +7,7 @@ path=($path $HOME/bin)
 path=($path $HOME/bin/weechat/bin)
 path=($path $HOME/bin/gems/bin)
 path=($path $HOME/bin/gems/lib/ruby/gems/1.8/bin/)
+path=($path $HOME/bin/astrometry.net/bin/)
 export PATH
 
 export GEM_HOME=$HOME/bin/gems/lib/ruby/gems/1.8

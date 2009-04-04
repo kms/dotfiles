@@ -3,6 +3,7 @@
 
 dht = on
 session = ~/.rtorrent-session
+directory = ~/download
 port_range = 45012-45012
 encryption = allow_incoming
 peer_exchange = yes

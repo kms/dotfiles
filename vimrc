@@ -35,7 +35,7 @@ syntax on
 filetype indent on
 set ruler
 set laststatus=2
-set statusline=%<%f\ \ %h%m%r%y%=[%{foldlevel('.')}]\ \ \ %l,%c%V\ \ {%o}\ \ %P
+set statusline=%<%f\ %h%w%m%r%y%=L:%l/%L\ (%p%%)\ C:%c%V\ B:%o\ F:%{foldlevel('.')}
 set nowrap
 set sidescroll=5
 set listchars+=precedes:«,extends:»

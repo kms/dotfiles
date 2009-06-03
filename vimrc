@@ -18,7 +18,7 @@ set shiftwidth=4
 set showcmd
 set showmode
 set textwidth=78
-set viminfo='50,\"1000,:50,h,n~/.viminfo
+set viminfo='1024,\"8192,,h,n~/.viminfo
 set visualbell
 set noerrorbells
 set showmatch
@@ -39,6 +39,7 @@ set statusline=%<%f\ %h%w%m%r%y%=L:%l/%L\ (%p%%)\ C:%c%V\ B:%o\ F:%{foldlevel('.
 set nowrap
 set sidescroll=5
 set listchars+=precedes:«,extends:»
+set history=2048
 
 
 " -- Key mapping --

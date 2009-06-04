@@ -18,7 +18,7 @@ set shiftwidth=4
 set showcmd
 set showmode
 set textwidth=78
-set viminfo='1024,\"8192,,h,n~/.viminfo
+set viminfo='1024,\"8192,h,n~/.viminfo
 set visualbell
 set noerrorbells
 set showmatch

@@ -12,3 +12,5 @@
     st = status
     ci = commit
     up = pull
+[push]
+    default = matching

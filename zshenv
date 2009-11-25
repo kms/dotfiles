@@ -4,6 +4,8 @@
 path=(/bin /usr/bin /sbin /usr/sbin)
 path=($path /usr/X11R6/bin /usr/games /usr/local/bin)
 path=($path $HOME/bin)
+path=($path $HOME/bin/android-sdk-linux/tools)
+path=($path $HOME/bin/eclipse)
 path=($path $HOME/bin/weechat/bin)
 path=($path $HOME/bin/gems/bin)
 path=($path $HOME/bin/gems/lib/ruby/gems/1.8/bin/)

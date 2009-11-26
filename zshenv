@@ -18,3 +18,5 @@ export RUBYLIB=$HOME/bin/gems/lib:$HOME/bin/gems/lib/site_ruby/1.8
 export VISUAL="/usr/bin/vim -X"
 export RSYNC_RSH=ssh
 export TZ='Europe/Oslo'
+
+export GDK_NATIVE_WINDOWS=true # For Android SDK

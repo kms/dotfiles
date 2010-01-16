@@ -3,3 +3,5 @@
 
 set t_vb=
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 8
+set guioptions-=r
+set guioptions-=L

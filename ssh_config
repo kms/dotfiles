@@ -1,5 +1,13 @@
 # ~/.ssh/config
 # Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
 
+Host farad farad.22pf.org
 ForwardX11 yes
+
+Host tesla tesla.22pf.org
+ForwardX11 yes
+
+Host *
+ForwardX11 no
+ForwardX11Trusted no
 ServerAliveInterval 30

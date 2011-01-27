@@ -7,6 +7,12 @@ ForwardX11 yes
 Host tesla tesla.22pf.org
 ForwardX11 yes
 
+Host katal katal.22pf.org
+ForwardX11 yes
+
+Host rad rad.22pf.org
+ForwardX11 yes
+
 Host *
 ForwardX11 no
 ForwardX11Trusted no

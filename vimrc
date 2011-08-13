@@ -1,5 +1,5 @@
 " ~/.vimrc
-" Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+" Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 
 let php3_minlines=200
 let java_allow_cpp_keywords=1

@@ -1,5 +1,5 @@
 # ~/.zshenv
-# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 
 path=(/bin /usr/bin /sbin /usr/sbin)
 path=($path /usr/X11R6/bin /usr/games /usr/local/bin)

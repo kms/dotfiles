@@ -1,5 +1,5 @@
 # ~/.rtorrent.rc
-# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 
 dht = on
 session = ~/.rtorrent-session

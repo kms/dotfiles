@@ -1,5 +1,5 @@
 # ~/.zshrc
-# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 
 unlimit
 limit stack 8192

@@ -43,8 +43,8 @@ typeset -U path cdpath fpath manpath
 PROMPT='[%m:%#] ' #default prompt
 RPROMPT='[%~]' # prompt for right side of screen
 
-HISTSIZE=2000
-SAVEHIST=2000
+HISTSIZE=32768
+SAVEHIST=32768
 HISTFILE=~/.zshhist
 DIRSTACKSIZE=20
 

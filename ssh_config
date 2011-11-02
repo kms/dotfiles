@@ -1,11 +1,22 @@
 # ~/.ssh/config
-# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 
 Host farad farad.22pf.org
 ForwardX11 yes
 
 Host tesla tesla.22pf.org
 ForwardX11 yes
+
+Host katal katal.22pf.org
+ForwardX11 yes
+
+Host rad rad.22pf.org
+ForwardX11 yes
+
+Host katal-extern
+ForwardX11 yes
+Hostname gw.22pf.org
+Port 22101
 
 Host *
 ForwardX11 no

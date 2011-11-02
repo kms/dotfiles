@@ -1,5 +1,5 @@
 # ~/.zshrc
-# Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+# Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 
 unlimit
 limit stack 8192
@@ -43,8 +43,8 @@ typeset -U path cdpath fpath manpath
 PROMPT='[%m:%#] ' #default prompt
 RPROMPT='[%~]' # prompt for right side of screen
 
-HISTSIZE=2000
-SAVEHIST=2000
+HISTSIZE=32768
+SAVEHIST=32768
 HISTFILE=~/.zshhist
 DIRSTACKSIZE=20
 

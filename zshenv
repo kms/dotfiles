@@ -20,3 +20,19 @@ export RSYNC_RSH=ssh
 export TZ='Europe/Oslo'
 
 export GDK_NATIVE_WINDOWS=true # For Android SDK
+
+export LANG=nb_NO.utf8
+export LANGUAGE=
+export LC_CTYPE="nb_NO.utf8"
+export LC_NUMERIC="en_US.utf8"
+export LC_TIME="en_US.utf8"
+export LC_COLLATE="nb_NO.utf8"
+export LC_MONETARY="nb_NO.utf8"
+export LC_MESSAGES="en_US.utf8"
+export LC_PAPER="nb_NO.utf8"
+export LC_NAME="nb_NO.utf8"
+export LC_ADDRESS="nb_NO.utf8"
+export LC_TELEPHONE="nb_NO.utf8"
+export LC_MEASUREMENT="nb_NO.utf8"
+export LC_IDENTIFICATION="nb_NO.utf8"
+export LC_ALL=

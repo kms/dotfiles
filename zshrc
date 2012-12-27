@@ -67,8 +67,9 @@ autoload up-line-or-beginning-search
 autoload down-line-or-beginning-search
 zle -N up-line-or-beginning-search 
 zle -N down-line-or-beginning-search
-bindkey "[A" up-line-or-beginning-search
-bindkey "[B" down-line-or-beginning-search
+# See also http://www.f30.me/2012/10/oh-my-zsh-key-bindings-on-ubuntu-12-10/
+bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
+bindkey "${terminfo[kcud1]}" down-line-or-beginnin-search
 
 # Xterm window title
 precmd() {

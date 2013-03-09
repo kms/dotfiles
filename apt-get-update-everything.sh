@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in farad katal newton radian lux tesla; do
+for i in farad katal rad tesla watt pascal; do
     figlet -c $i
     ssh -t $i "
     sudo apt-get update -qq;

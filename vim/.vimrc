@@ -4,6 +4,7 @@
 let php3_minlines=200
 let java_allow_cpp_keywords=1
 let mapleader = ","
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
 set autoindent
 set autowrite
@@ -35,11 +36,13 @@ syntax on
 filetype indent on
 set ruler
 set laststatus=2
-set statusline=%<%f\ %h%w%m%r%y%=L:%l/%L\ (%p%%)\ C:%c%V\ B:%o\ F:%{foldlevel('.')}
+"set statusline=%<%f\ %h%w%m%r%y%=L:%l/%L\ (%p%%)\ C:%c%V\ B:%o\ F:%{foldlevel('.')}
 set nowrap
 set sidescroll=5
 set listchars+=precedes:«,extends:»
 set history=2048
+set ttimeoutlen=50
+set t_Co=256
 
 
 " -- Key mapping --
@@ -105,3 +108,29 @@ function! Reindent()
     exec "normal gg=G"
     exec "normal 's"
 endfunction
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My Bundles here:
+"
+" original repos on github
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+" vim-scripts repos
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'majutsushi/tagbar'
+Bundle 'bling/vim-airline'
+Bundle 'Shougo/unite.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'scrooloose/syntastic'
+
+filetype plugin indent on     " required!

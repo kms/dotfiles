@@ -1,0 +1,4 @@
+.netrwhist
+bundle/
+.ycm_extra_conf.pyc
+syntax/snippet.vim

@@ -1,5 +1,8 @@
 " ~/.vimrc
 " Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
+"
+" Install Vundle: (See https://github.com/gmarik/vundle)
+"   git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 let php3_minlines=200
 let java_allow_cpp_keywords=1
@@ -34,6 +37,7 @@ set isfname-==
 set tags=tags;/
 syntax on
 filetype indent on
+filetype off
 set ruler
 set laststatus=2
 "set statusline=%<%f\ %h%w%m%r%y%=L:%l/%L\ (%p%%)\ C:%c%V\ B:%o\ F:%{foldlevel('.')}
@@ -130,7 +134,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'bling/vim-airline'
 Bundle 'Shougo/unite.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required!

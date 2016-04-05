@@ -4,6 +4,7 @@
 [user]
     name = Karl-Martin Skontorp
     email = kms@skontorp.net
+	signingkey = 62350CB5
 [core]
     excludesfile = /home/kms/.gitignore-global
 [color]

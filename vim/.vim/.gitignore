@@ -1,4 +1,5 @@
 .netrwhist
-bundle/
 .ycm_extra_conf.pyc
 syntax/snippet.vim
+autoload/plug.vim
+plugged/

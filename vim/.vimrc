@@ -1,9 +1,10 @@
 " ~/.vimrc
 " Karl-Martin Skontorp <kms@skontorp.net> ~ http://22pf.org/
 "
-" Install Vundle: (See https://github.com/gmarik/vundle)
-"   git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
-"   vim +PluginInstall +qall
+" Install vim-plug: (See )
+"   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"   vim +PlugInstall +qall
 
 let php3_minlines=200
 let java_allow_cpp_keywords=1
@@ -30,10 +31,9 @@ set noerrorbells
 set showmatch
 set t_vb=
 set wildmenu
-set expandtab
+set noexpandtab
 set nostartofline
 set whichwrap=<,>,h,l
-set lcs=tab:\ \ ,trail:­
 set hidden
 set isfname-==
 set tags=tags;/
@@ -44,16 +44,16 @@ set ruler
 set laststatus=2
 set nowrap
 set sidescroll=5
-set listchars+=precedes:«,extends:»
+set listchars=precedes:«,extends:»,tab:»·,trail:·
+set list
 set history=2048
 set ttimeoutlen=50
 set t_Co=256
 
-
 " Fold based on indents
-set foldmethod=indent
+"set foldmethod=indent
 " Open all folds
-au BufReadPost * exec "normal zR"
+"au BufReadPost * exec "normal zR"
 
 " Jump to last known position if '-mark is set
 augroup mark
@@ -68,42 +68,41 @@ function! Reindent()
     exec "normal 's"
 endfunction
 
-colorscheme defaultimproved
-highlight clear SignColumn
-highlight SignColumn ctermbg=black
-
-"colorscheme molokai
-
 set background=dark
+"colorscheme defaultimproved
+highlight clear SignColumn
+highlight clear SpecialKey
+highlight SignColumn ctermbg=black
+highlight SpecialKey ctermfg=lightred
 
 set number
 
 set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
 
-Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
-Plugin 'bufexplorer.zip'
-Plugin 'chrisbra/csv.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'majutsushi/tagbar'
-Plugin 'matchit.zip'
-Plugin 'milkypostman/vim-togglelist'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-"Plugin 'Valloric/YouCompleteMe'
-call vundle#end()
+call plug#begin()
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+"Plug 'bufexplorer.zip'
+Plug 'kien/ctrlp.vim'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'majutsushi/tagbar'
+"Plug 'matchit.zip'
+Plug 'milkypostman/vim-togglelist'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+"Plug 'Valloric/YouCompleteMe'
+Plug 'ap/vim-css-color'
+Plug 'tomasr/molokai'
+call plug#end()
 
 filetype plugin indent on
 
 let g:airline#extensions#tabline#enabled = 1
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
 
 " Increase speed
 "let g:gitgutter_realtime = 0
@@ -115,6 +114,8 @@ let g:toggle_list_no_mappings = 1
 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+let g:rehash256 = 1
+colorscheme molokai
 
 " <Leader><Leader>w osv. for easymotion
 " V S<p> for surround-vim

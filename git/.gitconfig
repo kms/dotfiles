@@ -13,4 +13,8 @@
     st = status
     ci = commit
 [push]
-    default = upstream
+    default = simple
+[log]
+    decorate = true
+[credential]
+    helper = cache --timeout=7200

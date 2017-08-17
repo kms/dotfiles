@@ -49,6 +49,7 @@ set list
 set history=2048
 set ttimeoutlen=50
 set t_Co=256
+set scrolloff=3
 
 " Fold based on indents
 "set foldmethod=indent

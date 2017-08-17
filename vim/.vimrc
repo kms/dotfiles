@@ -117,6 +117,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 let g:rehash256 = 1
 colorscheme molokai
+highlight MatchParen cterm=bold ctermfg=208 ctermbg=NONE
 
 " <Leader><Leader>w osv. for easymotion
 " V S<p> for surround-vim
